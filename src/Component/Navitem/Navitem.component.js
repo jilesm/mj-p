@@ -6,8 +6,13 @@ import './Navitem.styles.scss';
 class Navitem extends Component {
   render() {
     return (
-      <li>
-        <Link to={this.props.tolink}>{this.props.item}</Link>
+      <li id={this.props.item}>
+        <Link
+          to={this.props.tolink}
+          onClick={this.props.activec.bind(this, this.props.item)}
+        >
+          {this.props.item}
+        </Link>
       </li>
     );
   }
