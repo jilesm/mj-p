@@ -1,0 +1,23 @@
+@import '../../App.css';
+
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.profilepic
+{
+  border-radius: 50%;
+  width: 200px;
+  margin: 30px;
+}
+
+.typingeffect
+{
+    font-size: var(--typing-font);
+    margin-bottom: 30px;
+ }
